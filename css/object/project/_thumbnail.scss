@@ -1,0 +1,83 @@
+.p-thumbnail {
+    position: relative;
+}
+.p-thumbnail img {
+    width: 82vw;
+    vertical-align: bottom;
+}
+
+.p-thumbnail p {
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    color: #ffffffff;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+
+@media screen and (max-width: 840px) {
+    .p-thumbnail img {
+        width: 100%;
+    }
+}
+
+.p-thumbnail-archive {
+    position: relative;
+}
+
+.p-thumbnail-archive img {
+    width: 82vw;
+    vertical-align: bottom;
+    background-color: #000000;
+}
+
+.p-thumbnail-archive p {
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    color: #ffffffff;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.p-thumbnail-archive-heading {
+    font-size: 0.8rem;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 840px) {
+    .p-thumbnail-archive img {
+        width: 100%;
+    }
+}
+
+.p-thumbnail-single {
+    position: relative;
+}
+.p-thumbnail-single img {
+    width: 82vw;
+    vertical-align: bottom;
+}
+
+.p-thumbnail-single p {
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    color: #ffffffff;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+
+@media screen and (max-width: 840px) {
+    .p-thumbnail-single img {
+        width: 100%;
+    }
+}
+
+.p-thumbnail-single .page-text {
+    font-size: 3rem;
+}
+

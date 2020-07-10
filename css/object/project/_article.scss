@@ -1,0 +1,101 @@
+.p-article-wrap {
+    width: 625px;
+    font-family: "M+ 1m";
+    box-sizing: border-box;
+    &--takeout {
+        background-image: url(../img/three-burgers-on-brown-wooden-tray-between-white-ceramic-1841108.png);
+        background-size: cover;
+        width: 40%;
+        margin: 0 5% 0 7%;
+    }
+    &--eatin {
+        width: 40%;
+        background-image: url(../img/component.png);
+        background-size: cover;
+        
+    }
+    &__heading {
+        color: #EAEAEA;
+        font-size: 3.75rem;
+        font-weight: bold;
+        letter-spacing: 3px;
+        margin: 20px 0 0 19px;
+        position: relative;
+        &::before {
+            content:"";
+            position: absolute;
+            border: 1.5px solid #fff;
+            bottom: -35px;
+            left: 0;
+            width: 60px;
+        }
+    }
+    &__text {
+        box-sizing: border-box;
+        background-color: #fff;
+        opacity: 0.8;
+        color: #3c2a10;
+        height: auto;
+        margin: 0 20px 20px 20px;
+        padding: 20px 45px 34px 19px;
+        &-heading {
+            font-size: 1.5rem;
+            margin-bottom: 28px;
+        }
+        &-sentence {
+            font-size: 1rem;
+            font-weight: normal;
+            line-height: 1.5rem;
+            }
+        }
+    }
+
+.p-article-wrap2 {
+    margin-top: 35vw;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 840px) {
+    .p-article-wrap2 {
+        margin-top: 250px;
+    }
+    
+    .p-article-wrap {
+        &--takeout {
+            width: 45%;
+            margin: 0 4% 0 3%;
+        }
+        &--eatin {
+            width: 45%;
+        }
+        &__heading {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin: 20px 0 0 19px;
+            position: relative;
+            &::before {
+                content:"";
+                position: absolute;
+                border: 1.5px solid #fff;
+                bottom: -25px;
+                left: 0;
+                width: 40px;
+            }
+        }
+        &__text {
+            margin: 0 20px 20px 20px;
+            padding: 20px 30px 15px 19px;
+            line-height: 3;
+            &-heading {
+                font-size: 1.3rem;
+                margin-bottom: 20px;
+                line-height: 1;
+            }
+            &-sentence {
+                font-size: 0.9rem;
+                }
+            }
+        }
+}

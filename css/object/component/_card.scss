@@ -1,0 +1,46 @@
+.c-card {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.c-card-list {
+    display: flex;
+    margin-bottom: 30px;
+    font-family: M+1m;
+}
+
+.c-card-left img {
+    vertical-align: bottom;
+}
+
+.c-card-right {
+background-color: #3C2B1C;
+padding: 4% 8% 3% 5%;
+box-sizing: border-box;
+&__heading {
+    font-size: 36px;
+    color: #ffffff;
+}
+&__s-heading {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 9% 0 4% 0;
+}
+&__text {
+    color: #ffffff;
+}
+&__btn {
+    text-align: center;
+    margin-top: 10%;
+}
+a {
+    color: #707070;
+    background-color: #fff;
+    border-radius: 35px;
+    display: inline-block;
+    width: 16rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+}

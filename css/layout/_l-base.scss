@@ -1,0 +1,14 @@
+.l-top-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.l-left {
+    width: 82vw;
+}
+
+@media screen and (max-width: 840px) {
+    .l-left {
+        width: 100%;
+    }
+}

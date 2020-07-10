@@ -1,0 +1,41 @@
+// サイドメニューここから
+.l-sidemenu {
+    background-color: #F2EDE9;
+    width: 18vw;
+    min-height: 100%;
+    &__heading {
+        font-size: 2rem;
+        color: #707070;
+        margin: 86px 0 87px 50px;
+        font-family: "Roboto";
+    }
+    &__title {
+        font-size: 1.5rem;
+        color: #707070;
+        font-family: "M+1m";
+        margin: 0 0 40px 49px;
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+            margin-top: 30%;
+        }
+    }
+    &__list {
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-family: "M+1m";
+        color: #707070;
+        list-style: none;
+        margin:0 50px 30px 66px;
+        line-height: 1;
+        &:last-child {
+            margin-bottom: 56px;
+        }
+    }
+}
+
+@media screen and (max-width: 794px) {
+    .l-sidemenu__heading {
+        display: none;
+      }
+}
+

@@ -1,0 +1,27 @@
+body {
+    font-family: "M+ 1m";
+    background-color: #fffdfa;
+    overflow-x: hidden;
+    position: relative;
+}
+
+html {
+    font-size: 0.9vw;
+    overflow-y: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+    html {
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width: 641px) {
+    body {
+      overflow-x: inherit;
+    }
+  }

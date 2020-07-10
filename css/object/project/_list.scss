@@ -1,0 +1,13 @@
+.p-list-section {
+    margin-bottom: 3%;
+    padding-left: 3%;
+    & p:nth-child(even) {
+        margin-bottom: 1%;
+    }
+    & p:nth-child(6) {
+        margin-bottom: 5%;
+    }
+    &__text2 {
+    padding-left: 1%;
+    }
+}
